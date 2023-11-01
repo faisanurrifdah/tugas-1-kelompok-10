@@ -34,3 +34,31 @@ elif pesan_pizza == "super supreme" :
     harga_pizza = 43000
 elif pesan_pizza == "super supreme chiken" :
     harga_pizza = 43000
+
+#pesan ukuran pizza
+if ukuran_pizza == "large" :
+   harga_ukuran = 12000
+elif ukuran_pizza == "medium" :
+    harga_ukuran = 10000
+elif ukuran_pizza == "personal" :
+    harga_ukuran = 8000  
+
+#pesan crust pizza
+if crust_pizza == "pan" :
+    harga_crust = 5000
+elif crust_pizza == "cheesy bite" :
+    harga_crust = 7000
+elif crust_pizza == "stuffed" :
+    harga_crust = 10000
+elif crust_pizza == "crown" :
+    harga_crust = 12000
+else:
+    print("tidak ada menu lain")    
+
+#biaya tambahan keju
+tambah_cheese = 13000
+#total biaya
+total_coast = harga_pizza + harga_crust + harga_ukuran + tambah_cheese  
+#menampilkan pesanan dan total biaya
+print("thank you for choosing pizza hut delivery")
+print("your final bill will be Rp.", total_coast)
