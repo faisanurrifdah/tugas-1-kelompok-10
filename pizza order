@@ -1,0 +1,12 @@
+#nama toko
+print("pizza hut")
+
+#daftar menu
+print("pizza                price")
+print("frankfurter BBQ      Rp.43.637 ")
+print("meat monst           Rp.43,637 ")
+print("super supreme        Rp.43,637 ")
+print("super supreme chiken Rp.43,637 ")
+
+#input
+pesan_pizza =input("pilih jenis pizza"). lower ()
